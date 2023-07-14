@@ -7,23 +7,92 @@
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 <link rel="stylesheet" href="css/indexplay.css?version=2" title="default">
 <link rel="alternate stylesheet" href="css/indexplayday.css?version=2" title="alternate">
+
+<link rel="alternate stylesheet" href="css/night.css" title="alternate">
+<link rel="stylesheet" href="css/gridtop2.css" title="default">
+
 <script type="text/javascript" src="js/styleswitcher.js"></script>
 </head>
 <body>
 <a id="top"></a>
-<div class="modechange">
 
-<a href="#learn">guides</a>
-<a href="#grammar">grammar</a>
-<a href="#read">library</a>
-<a href="#chat">feedback</a>
-<a>|</a>
-<a href="#" onclick="setActiveStyleSheet('default'); return false;">night</a>
-<a href="#" onclick="setActiveStyleSheet('alternate'); return false;">day</a>
-
+<!-- Navigation start -->
+<div class="mobnav-left">
+<ul class="mobnav-links">
+<li class="mobnav-link-item">
+<a class="mobnav-link" href="learn/learnmain.html">学習</a>
+</li>
+<li class="mobnav-link-item">
+<a class="mobnav-link" href="grammar/grammarmain.html">文法</a>
+</li>
+<li class="mobnav-link-item">
+<a class="mobnav-link" href="library/librarymain.html">図書館</a>
+</li>
+<li class="mobnav-link-item">
+<a class="mobnav-link" href="updates.html">日誌</a>
+</li>
+</ul>
 </div>
 
+<div class="mobnav-right">
+<ul class="mobnav-links">
+<li class="mobnav-link-item">
+<a class="mobnav-link" href="horon/horonmain.html">補論</a>
+</li>
+<li class="mobnav-link-item">
+<a class="mobnav-link" href="threads.html">掲示板</a>
+</li>
+<li class="mobnav-link-item">
+<a class="mobnav-link-p">ホーム</a>
+</li>
+</ul>
+</div>
+
+
+<div class="topnav-links-container">
+<a href="index.html"><img src="hanko.png" id="itazura"></a>
+<ul class="topnav-links">
+<li class="topnav-link-item">
+<a class="topnav-link-eng">learn</a><br>
+<a class="topnav-link" href="learn/learnmain.html">学習</a>
+</li>
+<li class="topnav-link-item">
+<a class="topnav-link-eng">grammar</a><br>
+<a class="topnav-link" href="grammar/grammarmain.html">文法</a>
+</li>
+<li class="topnav-link-item">
+<a class="topnav-link-eng">library</a><br>
+<a class="topnav-link" href="library/librarymain.html">図書館</a>
+</li>
+<li class="topnav-link-item">
+<a class="topnav-link-eng">updates</a><br>
+<a class="topnav-link" href="updates.html">日誌</a>
+</li>
+<li class="topnav-link-item">
+<a class="topnav-link-eng">misc.</a><br>
+<a class="topnav-link" href="horon/horonmain.html">補論</a>
+</li>
+<li class="topnav-link-item">
+<a class="topnav-link-eng">threads</a><br>
+<a class="topnav-link" href="threads.html">掲示板</a>
+</li>
+<li class="topnav-link-item">
+<a class="topnav-link-eng">home</a><br>
+<a class="topnav-link-p">ホーム</a>
+</li>
+</ul>
+</div>
+</div>
+<div style="clear:both"></div>
 <hr class="brush">
+<!-- / Navigation end -->
+
+<!-- Day or night switcher start -->
+<div class="modechange">
+<a href="#" onclick="setActiveStyleSheet('default'); return false;">night</a>
+<a href="#" onclick="setActiveStyleSheet('alternate'); return false;">day</a>
+</div>
+<!-- Day or night switcher end -->
 
 <img class="dayimgshadowless" id="itazuranekomain" src="background/itazuranekoanimated.png">
 
