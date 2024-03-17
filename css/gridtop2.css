@@ -409,7 +409,7 @@ a.underscore {
 a:hover.underscore {
     color: rgb(217, 217, 217);
     text-decoration: none;
-    box-shadow: 0px 2px 0px 0px #3cc7ea;
+    box-shadow: 0px 1px 0px 0px currentColor;
 }
 
 a {
